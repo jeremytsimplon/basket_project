@@ -1,0 +1,593 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
+
+
+/*************************
+*******Typography******
+**************************/
+
+body {
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+    color: #3D3D3D;
+}
+
+
+.btn {
+    border-radius: 0;
+    font-family: 'Yanone Kaffeesatz','sans-serif';
+    font-size: 20px;
+    padding: 9px 23px;
+}
+
+a {
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+a:focus, 
+a:hover {
+    text-decoration: none;
+    outline: none
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Yanone Kaffeesatz', 'sans-serif';
+    font-weight: 300;
+    text-transform: uppercase;
+    color:white;
+}
+
+h2 {
+    font-size: 36px;
+    color:#3D3D3D;
+}
+
+.navbar-toggle {
+    margin-top: 12px
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-toggle, 
+.navbar-toggle:focus {
+    border:1px solid #fff;
+    outline: none;
+}
+
+.strong {
+    font-weight: bold;
+    color:#3D3D3D;
+}
+
+.imgWidth {
+    width: 300px;
+    height:250px;
+}
+
+/*************************
+*******Header CSS******
+**************************/
+
+.header-top {
+    display: block;
+    overflow: hidden;
+    padding: 25px;
+}
+
+.main-nav {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+.main-nav 
+.container {
+    width: 100%
+}
+
+.social-icons a {
+    font-size: 18px;
+    color: #fff;
+    padding-left:20px;  
+}
+
+.social-icons .fa-facebook:hover {
+    color: #3B5997;
+}
+
+.navbar-brand {
+    background-color: #ea572b;
+    height: 90px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 250px;
+    color:#3D3D3D;
+}
+
+
+/* Partie gauche de la barre de navigation */
+.navbar-brand p {
+    margin-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #3D3D3D;;
+    text-transform: uppercase;
+    font-family: 'Yanone Kaffeesatz', 'sans-serif';
+    font-weight: 300;
+
+}
+
+
+/* Partie droite de la barre de navigation */
+.navbar-right {
+    background-color: #ea572b;
+    padding:0 10px 0 0;
+    opacity: .9;
+}
+
+.navbar-right li a {
+    padding: 35px 15px;
+    font-size: 20px;
+    color: #3D3D3D;
+    text-transform: uppercase;
+    font-family: 'Yanone Kaffeesatz', 'sans-serif';
+    font-weight: 300;
+
+}
+
+.navbar-right li a:hover, 
+.navbar-right li a:focus,  
+.navbar-right .active a {
+    background-color: #212121;
+    color: white;
+}
+
+
+.fixed-menu {
+    background-color: #ea572b;
+    position: fixed;
+    top: 0;
+}
+
+.fixed-menu .navbar-right {
+    padding: 0;
+}
+
+
+.fixed-menu .navbar-right li a {
+    font-size: 18px;
+    padding: 20px 25px;
+    text-shadow:inherit;
+}
+
+.fixed-menu .navbar-brand {
+    height: 60px;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+    width: 250px;
+}
+
+.fixed-menu .navbar-brand img {
+    height:60px;
+    top: 0;
+}
+
+.fixed-menu .header-top {
+    display: none;
+}
+
+
+
+/*************************
+*******Home CSS******
+**************************/
+
+#home {
+    position: relative;
+    overflow: hidden;
+}
+
+#main-slider img {
+    width: 100%
+}
+
+#main-slider 
+.carousel-caption {
+
+    bottom: 14%;
+    float: left;
+    left: 0;
+    opacity: 0.8;
+    padding:10px 60px 35px;
+    right: inherit;
+    text-transform: uppercase;
+    color: #3D3D3D;
+    text-align: left;
+}
+
+
+#main-slider 
+.carousel-caption h2 {  
+    font-size: 38px;
+
+}
+
+#main-slider 
+.carousel-caption h4 {
+    font-size: 24px;
+}
+
+#main-slider 
+.carousel-caption a {
+    font-size: 22px;
+    color: #3D3D3D;
+}
+
+#main-slider 
+.carousel-caption a:hover {
+    color: #3D3D3D;
+}
+
+#main-slider 
+.carousel-caption a:hover i {
+    margin-left: 35px
+}
+
+#main-slider 
+.carousel-caption a i {
+    margin-left: 15px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#main-slider 
+.carousel-indicators li {
+    background-color: #FA771E;
+    border: 1px solid #FA771E;
+}
+
+#main-slider 
+.carousel-indicators li.active {
+    background-color:#fff;
+    border: 1px solid #fff;
+}
+
+
+/*************************
+*******Equipe CSS******
+**************************/
+#equipe, #galerie {
+    background-color: #FA771E;  
+    background-position: 50% 0;
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+
+#event h2 , #galerie h2 {
+    color: #3D3D3D;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    margin-top: 70px;
+    text-transform: uppercase;
+}
+
+.single-event {
+    margin-bottom: 70px;
+}
+
+.single-event h4 {
+    color: #3D3D3D;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+
+.single-event h5 {
+    font-size: 18px;
+    font-weight: 100;
+    display: block;
+}
+
+#event-carousel {
+    position: relative;
+}
+
+.even-control-left, 
+.even-control-right {
+    position: absolute;
+    font-size: 24px;
+    color: #3D3D3D;
+    top: 0;
+}
+
+.even-control-left {
+    right: 3%
+} 
+
+.even-control-right {
+    right: 0;
+}
+
+
+/*************************
+*******Calendrier / Résultat CSS**********
+**************************/
+
+#calendarResults {
+    background-color: #F89406;  
+    position: relative;  
+    width: 100%;
+    display: flex;
+    color:#3D3D3D;
+}
+
+
+.myTable {
+    margin-top : 4%;
+    margin-bottom: 4%;
+}
+
+/*************************
+******Historique / le club CSS****
+**************************/
+
+#historique {
+
+    background-color: #F89406;  
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat:no-repeat;
+    position: relative;
+    padding: 20px 0 20px;
+    overflow: hidden;
+}
+
+.hist {
+    position: absolute;
+    left: 0;
+    top:-42%;
+}
+
+#historique-feed .item {
+    text-align: center;
+}
+
+#historique-feed .item img {
+    display: inline-block;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-color: #c5c8ce;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+#historique-feed .item a, 
+#historique-feed .item p { 
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Yanone Kaffeesatz','sans-serif';
+}
+
+#historique-feed .item p {
+    color: #3D3D3D;
+}
+
+#historique-feed .item a {
+    color:#00c3ff;
+}
+
+.historique-control-left, 
+.historique-control-right {
+    position: absolute;
+    color: #00c3ff;
+    top: 59%;
+    font-size: 24px
+}
+
+.historique-control-left {
+    left: 0;
+}
+
+.historique-control-right {
+    right:0;
+} 
+
+
+
+/*************************
+******Sponsor CSS****
+**************************/
+
+#sponsor {
+    background-color: #FA771E;  
+    background-position:50% 0;
+    background-size: cover;
+    background-repeat:no-repeat;
+    position: relative;
+}
+
+.light {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#sponsor .col-sm-10 {
+    z-index: 10;
+}
+
+#sponsor h2 {
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+#sponsor .item ul {
+    font-size: 0;
+    padding: 0;
+}
+
+
+#sponsor .item ul li {
+    display: inline-block;
+    list-style: none;
+    width: 33.33%;
+    margin-bottom: 75px;
+}
+
+#sponsor .item ul li:last-child {
+    margin-right: 0
+}
+
+.sponsor-control-left, 
+.sponsor-control-right {
+    color: #3D3D3D;
+    font-size: 24px;
+    position: absolute;
+    top: 20%;
+}
+
+.sponsor-control-left {
+    right: 12%
+}
+
+.sponsor-control-right {
+    right: 10%
+}
+
+.imgSponsor {
+    margin: 5px;
+    width: 200px;
+    height:150px;
+    border-radius:2px;
+    box-shadow: 1px 1px 5px black;
+}
+
+
+/*************************
+******Map CSS****
+**************************/
+#map {
+    position: relative;
+}
+
+#gmap {
+    height:450px;  
+}
+
+
+/*************************
+******Contact CSS****
+**************************/
+
+.contact-section {
+    background-color: #F89406;
+
+    background-position:60% 0;
+    background-size:contain;
+    background-repeat:no-repeat;  
+    position: relative;
+}
+
+#contact .container {
+    padding-top:47px;
+}
+
+#contact h3 {
+    text-transform:inherit;
+    color: #3D3D3D; 
+}
+
+#contact-section h3 {  
+    margin-bottom: 25px
+}
+
+#contact address {
+    font-size: 18px;  
+    color: #3D3D3D; 
+}
+
+.contact-text {
+    margin-bottom: 35px;
+    display: block;
+}
+
+
+#contact-section .form-control {
+    border-color: #ae750d;
+    box-shadow:none;
+    outline: 0 none;
+    border-radius: 0;
+    color: #3D3D3D;
+    font-size: 18px;
+}
+
+#contact-section .form-control:focus {
+    border-color: #ae750d;
+}
+
+#contact-section input {  
+    height: 44px;
+}
+
+#contact-section textarea {
+    height: 90px;
+    resize:none;
+}
+
+#contact-section .btn-primary {
+    background-color: #373737;
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 6px 42px;
+    margin-bottom: 110px;
+    margin-top: 10px
+}
+
+#contact-section .btn-primary:hover {
+    background-color: #212020;
+    color:#3D3D3D;
+}
+
+
+
+/*************************
+******Footer CSS****
+**************************/
+
+#footer {
+    background-color: #212121;
+
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 35px 0;
+}
+
+#footer a {
+    color:#f7ab24
+}
+
+#footer a:hover {
+    color:#1B7B98
+}
+
+

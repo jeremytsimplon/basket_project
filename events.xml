@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<monthly>
+
+    <!--Affichage des évènements dans le calendrier.
+        Plusieurs évènements sont possibles,
+        Les évènements durant plusieurs jours sont également gérés.
+    -->
+    
+    
+	<event>
+		<id>1</id>  <!-- identifiant du  tournoi -->
+		<name>Tournoi Poussins</name> <!--nom du tournoi -->
+		<startdate>2016-1-1</startdate> <!--Date de début-->
+		<enddate></enddate> <!--Date de fin -->
+		<starttime>9:00</starttime><!--Heure de début -->
+		<endtime>10:00</endtime> <!--Heure de fin -->
+		<color>#F89406</color><!--Couleur de l'évènement sur le calendrier. -->
+		<url></url> <!--Adresse web du site de l'évènement  -->
+	</event>
+
+	<event>
+		<id>2</id>
+		<name>Event Name 2</name>
+		<startdate>2016-1-02</startdate>
+		<enddate></enddate>
+		<starttime>10:30</starttime>
+		<endtime>11:00</endtime>
+		<color>#F89406</color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>3</id>
+		<name>Event Name 3</name>
+		<startdate>2016-1-12</startdate>
+		<enddate>2016-1-13</enddate>
+		<starttime>8:30</starttime>
+		<endtime>10:00</endtime>
+		<color>#F89406</color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>4</id>
+		<name>Event Name 4</name>
+		<startdate>2016-1-12</startdate>
+		<enddate></enddate>
+		<starttime>7:30</starttime>
+		<endtime>10:00</endtime>
+		<color>#F89406</color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>5</id>
+		<name>Event Name 5</name>
+		<startdate>2016-1-22</startdate>
+		<enddate></enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color>#F89406</color>
+		<url></url>
+	</event>
+
+	<event>
+		<id>6</id>
+		<name>Event Name 6</name>
+		<startdate>2016-1-26</startdate>
+		<enddate>2016-1-27</enddate>
+		<starttime></starttime>
+		<endtime></endtime>
+		<color>#F89406</color>
+		<url></url>
+	</event>
+
+</monthly>
