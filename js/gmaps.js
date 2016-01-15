@@ -20,7 +20,7 @@
 
 if (!(typeof window.google === 'object' && window.google.maps)) {
   throw 'Google Maps API is required. Please register the following JavaScript library http://maps.google.com/maps/api/js?sensor=true.'
-}
+} 
 
 var extend_object = function(obj, new_obj) {
   var name;
@@ -1620,7 +1620,7 @@ GMaps.staticMapURL = function(options){
 
   var sensor = options.hasOwnProperty('sensor') ? !!options.sensor : true;
   delete options.sensor;
-  parameters.push('sensor=' + sensor);
+  parameters.push('sensor=' + sensor); 
 
   for (var param in options) {
     if (options.hasOwnProperty(param)) {

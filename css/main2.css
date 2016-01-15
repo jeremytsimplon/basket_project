@@ -61,7 +61,7 @@ h2 {
 
 .strong {
     font-weight: bold;
-    color:#3D3D3D;
+    color:white;
 }
 
 .imgWidth {
@@ -101,7 +101,7 @@ h2 {
 }
 
 .navbar-brand {
-    background-color: #ea572b;
+    background-color:white;
     height: 90px;
     margin-bottom: 20px;
     position: relative;
@@ -125,7 +125,7 @@ h2 {
 
 /* Partie droite de la barre de navigation */
 .navbar-right {
-    background-color: #ea572b;
+    background-color:white;
     padding:0 10px 0 0;
     opacity: .9;
 }
@@ -149,7 +149,7 @@ h2 {
 
 
 .fixed-menu {
-    background-color: #ea572b;
+    background-color: white;
     position: fixed;
     top: 0;
 }
@@ -266,7 +266,7 @@ h2 {
 *******Equipe CSS******
 **************************/
 #equipe, #galerie {
-    background-color: #FA771E;  
+    background-color: #EE5023;  
     background-position: 50% 0;
     background-size: contain;
     position: relative;
@@ -329,7 +329,7 @@ h2 {
 **************************/
 
 #calendarResults {
-    background-color: #F89406;  
+    background-color: #3D3D3D;  
     position: relative;  
     width: 100%;
     display: flex;
@@ -339,6 +339,16 @@ h2 {
 
 .myTable {
     border:1px solid #3D3D3D;
+    color:white;
+}
+
+.grey {
+    color:#3D3D3D;
+}
+
+#mycalendar {
+    margin-top: 2%;
+    margin-bottom:2%;
 }
 
 /*************************
@@ -347,13 +357,18 @@ h2 {
 
 #historique {
 
-    background-color: #F89406;  
+    background-color: #3D3D3D;  
     background-position: center bottom;
     background-size: cover;
     background-repeat:no-repeat;
     position: relative;
     padding: 20px 0 20px;
     overflow: hidden;
+    color:white;
+}
+
+#historique h2, #historique li {
+    color:white;
 }
 
 .hist {
@@ -384,11 +399,11 @@ h2 {
 }
 
 #historique-feed .item p {
-    color: #3D3D3D;
+    color:white;
 }
 
 #historique-feed .item a {
-    color:#00c3ff;
+    color:white;
 }
 
 .historique-control-left, 
@@ -414,7 +429,7 @@ h2 {
 **************************/
 
 #sponsor {
-    background-color: #FA771E;  
+    background-color: #EE5023;  
     background-position:50% 0;
     background-size: cover;
     background-repeat:no-repeat;
@@ -495,7 +510,7 @@ h2 {
 **************************/
 
 .contact-section {
-    background-color: #F89406;
+    background-color: #FA771E;
 
     background-position:60% 0;
     background-size:contain;

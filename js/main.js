@@ -28,7 +28,7 @@ jQuery(function($) {'use strict';
 	
 	
 	// Carousel Auto Slide Off
-	$(' #main-slider, #event-carousel, #historique-feed, #sponsor-carousel ').carousel({
+	$('#event-carousel, #historique-feed, #sponsor-carousel ').carousel({
 		interval: false
 	});
 
@@ -136,6 +136,16 @@ jQuery(function($) {'use strict';
 	});
 
 	map.setStyle("map_style");
+        
+        // Activate map onclick
+ $('#gmap-wrap').click(function(){
+  $('#gmap').css('pointer-events', 'auto');
+ });
+ // Desactivate map hover out
+ $('#gmap-wrap').hover(function(){},function(){
+  $('#gmap').css('pointer-events', 'none'); });
+
+        
 }());
 
 
